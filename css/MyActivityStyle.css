@@ -1,0 +1,38 @@
+/* блоки с описанием развития  */
+.My-activity{
+    color: white;
+    height: 99.9%;
+    width: 99.9%;
+    min-height: 400px;
+    text-align: center;
+
+}
+
+.My-activity-block{
+       display: flex;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+}
+
+.block-Act{
+         
+    margin: 3% auto;
+    min-width: 150px;
+    min-height: 150px;
+    width: 24%;
+    height: auto;
+    text-align: center;   
+    color: white;
+    margin-bottom: 20% ;
+   
+   
+ 
+}
+
+.My-activity-title{
+
+    margin: 7% auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}

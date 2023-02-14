@@ -1,0 +1,338 @@
+.Header-Main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    font-weight: 100; /* задает вес (или жирность) шрифта. */
+    /* background: radial-gradient(#313240,#000000); */
+    /* background:radial-gradient(#080b2c,#000000); */
+    background:radial-gradient(#000000,#000000);
+    overflow-y: hidden;
+    animation: OpenPage 1 2s ease-out;
+    
+}
+
+@keyframes OpenPage{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+/* разметка текста */
+.Class-Title-page-text{
+ 
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   text-align: center;
+}
+
+/* текст */
+.Text-in-page{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: white;
+    /* font-size: 90px; */
+    font-size: 6vw;
+    text-shadow: 1px 2px 3px white  , -1px -2px 3px white  ;
+    
+    
+}
+
+/* скорость воспроизведения текста  */
+#IdText1, #IdText2,#IdText3, #IdText4{
+    opacity: 0;
+}
+  
+#IdText1{
+    animation: fadingText 1 3s ease-in;
+}
+  
+#IdText2{
+    animation: fadingText 1 3s ease-in;
+    animation-delay: 4s;
+}
+  
+#IdText3{
+    animation: fadingText 1 4s ease-in;
+    animation-delay: 8s;
+}
+  
+#IdText4{
+    animation: appearanceText 1 4s ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+  
+  
+@keyframes fadingText{
+    0%{opacity: 0;}
+    30%{opacity: 1;}
+    80%{opacity: .9;}
+    100%{opacity: 0;}
+}
+  
+@keyframes appearanceText{
+    
+    0%{opacity: 1;}
+    50%{opacity: .1; }
+    50%{scale: 1.1;}
+    100%{opacity: 2;}
+    100%{scale: 1;}
+
+}
+
+
+
+.Title-button{
+  position: absolute;
+  border: 2px solid white;
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-size: 2em;
+  border-radius: 5px;
+  opacity: .5;
+  top: 60vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  transition: .3s;
+}
+
+.Title-button:hover{
+  border: 2px solid #104F55;
+  background-color: rgba(365,365,365,0.5);
+  cursor: pointer;
+  color: #104F55;
+  opacity: .8;
+  transition: .3s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  
+}
+
+.Title-button:focus{
+    outline: none;
+}
+
+
+.Ray-light {
+    position: absolute;
+    width: 0px;
+    opacity: .75;
+    background-color: white;
+    box-shadow: #e9f1f1 0px 0px 1.3vw 2px;
+    opacity: 0;
+    top: 100vh;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.ray-1{
+    animation: floatUp 4s infinite linear;
+    transform: scale(1.0);
+}
+
+.ray-2{
+  animation: floatUp 7s infinite linear;
+  transform: scale(1.6);
+  left: 15%;
+}
+
+.ray-3{
+  animation: floatUp 2.5s infinite linear;
+  transform: scale(.5);
+  left: -15%;
+}
+
+.ray-4{
+  animation: floatUp 4.5s infinite linear;
+  transform: scale(1.2);
+  left: -34%;
+}
+
+.ray-5{
+  animation: floatUp 8s infinite linear;
+  transform: scale(2.2);
+  left: -57%;
+}
+
+.ray-6{
+   animation: floatUp 3s infinite linear;
+   transform: scale(.8);
+   left: -81%;
+}
+
+.ray-7{
+  animation: floatUp 5.3s infinite linear;
+  transform: scale(3.2);
+  left: 37%;
+}
+
+.ray-8{
+   animation: floatUp 4.7s infinite linear;
+  transform: scale(1.7);
+  left: 62%;
+}
+
+.ray-9{
+  
+  animation: floatUp 4.1s infinite linear;
+  transform: scale(0.9);
+  left: 85%;
+}
+
+
+
+@keyframes floatUp{
+    0%{top: 100vh; opacity: 0;}
+    25%{opacity: 1;}
+    50%{top: 0vh; opacity: .8;}
+    75%{opacity: 1;}
+    100%{top: 40vh; opacity: 0;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/* #head5{
+  -webkit-animation: finalFade 1 5s ease-in;
+  -moz-animation: finalFade 1 5s ease-in;
+  -o-animation: finalFade 1 5s ease-in;
+  animation: finalFade 1 5s ease-in;
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-delay: 22s;
+  -moz-animation-delay: 22s;
+  -o-animation-delay: 22s;
+  animation-delay: 22s;
+} */
+
+
+
+/* 
+@-webkit-keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-moz-keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
+@-o-keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+} */
+
+
+
+/* @-webkit-keyframes fadeOut{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 0;}
+}
+
+@-moz-keyframes fadeOut{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 0;}
+}
+
+@-o-keyframes fadeOut{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 0;}
+} */
+
+
+
+/* @-webkit-keyframes finalFade{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes finalFade{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 1;}
+}
+
+@-o-keyframes finalFade{
+  0%{opacity: 0;}
+  30%{opacity: 1;}
+  80%{opacity: .9;}
+  100%{opacity: 1;}
+} */
+
+/* @keyframes finalFade{
+    0%{opacity: 0;}
+    30%{opacity: 1;}
+    80%{opacity: .9;}
+    100%{opacity: 1;}
+  } */
+
+/* 
+#footer{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  color: white;
+  position: fixed;
+  -webkit-transform: translate(95vw,90vh);
+  -moz-transform: translate(95vw,90vh);
+  transform: translate(95vw,90vh);
+  transform: translate(95vw,90vh);
+} */

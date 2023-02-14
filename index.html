@@ -1,41 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-
+    <title>Artur Frolovnin</title>
+    
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/HeaderStyle.css">
+    <link rel="stylesheet" href="css/NavigationStyle.css">
+    <link rel="stylesheet" href="css/MyActivityStyle.css">
+    <link rel="stylesheet" href="css/СhapterMyWork/MyWork.css">
+    <link rel="stylesheet" href="css/SectionButtonNav.css">
+    <link rel="stylesheet" href="css/СhapterMyWork/TestModal-box.css">
+    <link rel="stylesheet" href="css/СhapterMyWork/ModalBoxX_0.css">
+    <link rel="stylesheet" href="css/MySkillsStyle.css">
+    <link rel="stylesheet" href="css/MyPerson.css"> 
 
-    <link rel="stylesheet" href="css/MyWork.css">
 
-    <script src="js/index.js" defer ></script>
+
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+
+    <!-- <script src="JS/Index.js" defer ></script>
+    <script src="JS/Skills.js" defer ></script> -->
 
 
 
 </head>
+
 <body>
+    <div class="Clss-Conteiner">
+
+
+            <!-- титульная страница -->
+        <section class="Header-Main">
+            <div class="Class-Title-page-text">
+
+                <p id='IdText1' class='Text-in-page'>Hello</p>
+                <p id='IdText2' class='Text-in-page'>My name is Artur</p>
+                <p id='IdText3' class='Text-in-page'>I am glad to see you on my page</p>
+                <p id='IdText4' class='Text-in-page'>Welcome</p>
+            </div>
+
+
+            <button class="Title-button">Continue</button>
+
+            <div class="Class-Ray-light">      
+
+                <div class='Ray-light ray-1'></div>
+                <div class='Ray-light ray-2'></div>
+                <div class='Ray-light ray-3'></div>
+                <div class='Ray-light ray-4'></div>
+                <div class='Ray-light ray-5'></div>
+                <div class='Ray-light ray-6'></div>
+                <div class='Ray-light ray-7'></div>
+                <div class='Ray-light ray-8'></div>
+                <div class='Ray-light ray-9'></div>
+             </div> 
+        </section>
+
+
+
+
+
+          <!-- верхняя панель навигации   -->
+        <header class="Class-Navigation">
+            <div class="Navigation-block">
+                <div>
+
+                    <h2 style="color:white;">Дизайн в светлом режиме  </h2>
+                    <h2 style="color:white;"> Язык  </h2>
+
+                </div>
+                <div>
+                    <button class="button-Menu-navigation"> портфолио </button>
+                    <button class="button-Menu-navigation" > технологии</button>
+                    <button class="button-Menu-navigation" > обо мне </button>
+                    <button class="button-Menu-navigation" >контакты</button>
+                </div>
+            </div>
+        </header>
+
+
+
+
+            <!-- боковые иконки навигации  -->
+        <section class="section-contact">
+            <div class="section-button-nav">
+                <ul class="icon-navigation"> 
+                    <img src="img/icon/vk-logo.png" 
+                    width="70%"
+                    alt=""> 
+                </ul>
+                
+
+                <ul class="icon-navigation"> 
+                    <img src="img/icon/Tg-logo.png" 
+                    width="70%"
+                    alt="">
+                </ul>
+
+                <ul class="icon-navigation"> 
+                    <img src="img/icon/github-icons.png"
+                    width="70%"
+                    alt="">
+                </ul>
+                
+
+            </div>
+        </section>
+
+
+
+
+
+        <main>
+
+            <!-- раздел моего направлении в развити  -->
+            <section class="My-activity">
+
+                <div class="My-activity-title">
+                    <h1> В каких направлениях я развиваюсь </h1>
+                </div>
+                
+
+                <div class="My-activity-block">
+                    <div class="block-Act"> 
+
+
+                        <h2>Frontend</h2>
+                        <h2>Основное направление </h2>
+                        <img src="img/Frontend.png" 
+                         width="100%"
+                        
+                        alt="">
+                        <!-- <h2>Frontend</h2> -->
+                        <p> Совершенствуюсь в вёрстке красивых и современных веб-страниц с полной адаптивностью под любые устройства </p>
+
+                    </div>
+
+                    
+
+                    <div class="block-Act"> 
+
+                        <h2> Backend </h2>   
+                        <h2> План на развите в будующем </h2>  
+                        <img src="img/backend.png" 
+                        width="100%"
+                        alt="">
+                        <!-- <h2> Backend </h2> -->
+                        <p>Планирую освоить разработку  backend логики для  frontend'а.</p>
+
+                    </div>
+
+                    <div class="block-Act">
+
+                        <h2>Unity</h2>
+                        <h2> Хобби 2D игры  </h2>
+                        <img src="img/unity.png" 
+                        width="100%"
+                        alt="">
+                       
+                        <p> Разрабатываю игры 2D на мобильные утройства. </p>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </section>
+
+            
+
+
+
+            <!-- раздел моих работ  -->
+            <section class="My-work">
+
+                <div class="Class_Iphone">
+
+                        <!-- фон для черного экрана  -->
+                    <div id="Id-Iphone-1" class="frame-Iphone">
+
+                        <img src="img/iphoneOff2.png"
+                        width="40%"
+                        alt="">
+                    </div>
+
+
+                     <!-- фон для активного экрана  -->
+                    <div id="Id-Iphone-2" >
+                        <div  class="Iphone-backgraund">
+
+                            <img class=""  src="img/iphone_x.png"
+                            width="40%"
+                            alt="">
+                            
+                            <div class="Text-in-iphone" >
+                                Библиотека 
+                            </div>
     
-    <div>
-        <h1>
-            test3
-        </h1>
+                                    <!-- модальные окна              -->
+                                    <!-- крестики нолики -->
+                                                        
+                            <div class="icon-modal-box-x-0"  id="Id-icon-modal-box-x-0">
+
+                                <img src="img/wokr/X0.png"
+                                     width="8%" 
+                                     alt="">
+    
+                            </div>
+                              
+                            <div class="Modal-X_0" id="Id-Modal-X_0" data-modal="0">
+                                <div class="Modal-Box-X_0">
+                                   
+                                    <div id="game"> </div>
+
+                                </div>
+                            </div>
+                            
+                          
+                        </div>
+                    </div>
+    
+
+                
+                </div>
+            </section>
+
+
+
+
+
+            <section class="My-Skills">
+                <!-- <h1> используемые технологии </h1> -->
+
+                
+                
+                    
+                        
+
+                        <div class="slide">
+
+                            <div class="Title-MySkills">
+                                <h1> используемые технологии </h1>
+                            </div>
+
+                            <img src="img/TV3 .png" 
+                            height="300vh"
+                            alt=""> 
+
+                        
+                            <img src="img/icon/iconTV/HTML.png" 
+                            height="1vh"
+                            class="clide-single"
+                            alt="HTML">
+
+                            <img src="img/icon/iconTV/CSS.png" 
+                            
+                            class="clide-single"
+                            alt="CSS">
+
+                            <img src="img/icon/iconTV/JS.png" 
+                            
+                            class="clide-single" 
+                            alt="JS">
+
+                            <img src="img/icon/iconTV/React.png" 
+                        
+                            class="clide-single"
+                            alt="React">
+
+                            <img src="img/icon/iconTV/C-Sharp.png" 
+                        
+                            class="clide-single"
+                            alt="C#">
+
+                            <img src="img/icon/iconTV/Unity.png" 
+                            
+                            class="clide-single"
+                            alt="Unity">
+
+                    
+
+                       
+                  
+
+                </div>
+           
+                
+            </section>
+
+
+
+
+
+            <!-- <section class="im-person">
+
+                <div class="Block-class-person">
+
+
+                    <h1> обо мне   </h1>
+
+
+                    <div class="title-person">
+
+                        <img src="img/ipad-png-6.png" 
+                        height="80vh"
+                                               
+                        alt="">
+
+
+                        <div class="Person-information" >
+                            <p>block</p>
+                        </div>
+
+                    </div>
+                </div>
+               
+                
+            </section> -->
+
+
+
+
+        </main>
     </div>
-
-    <div class="nametest">
-            <p>style css/index.css </p>
-
-    </div>
-
-    <button id="IdButton" > click</button>
-
-
-    <div class="textwork" >
-        <p>text red</p>
-    </div>
-
-
-
 </body>
+
 </html>

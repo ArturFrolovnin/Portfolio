@@ -1,0 +1,79 @@
+/* раздел показа работ */
+
+.My-work{
+     
+    /* text-align: center; */
+    color:white;
+    height: 100%;
+    min-height: 1500px;
+    
+    
+
+}
+
+
+.Class_Iphone {
+   display: flex;
+   position: relative ;
+  
+ 
+
+}
+
+
+#Id-Iphone-1,#Id-Iphone-2{
+    
+    position: absolute;
+    left: 0vw; 
+    right: 0vw;
+    top: 0vh;
+    bottom: 0vh;
+    margin-top: 3%;
+    text-align: center;   
+    
+}
+
+
+.Iphone-backgraund{
+
+    position: absolute;
+    left: 0vw; 
+    right: 0vw;
+    top: 0vh;
+    bottom: 0vh;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+  
+}
+
+.Iphone-backgraund:hover{
+
+    opacity: 1;
+}
+
+
+.Text-in-iphone{
+
+    position: absolute; 
+    left: 0vw; 
+    right: 1vw;
+    top: 20vh;
+    bottom: 0vh;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+

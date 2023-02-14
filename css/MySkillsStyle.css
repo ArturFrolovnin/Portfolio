@@ -1,0 +1,46 @@
+
+.My-Skills{
+    border:solid 1px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    height: 100%;
+    
+    
+}
+
+
+.Title-MySkills{
+    position: absolute;
+    top: 8%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto';
+   
+}
+
+
+
+
+.slide{
+    width: 64%;
+    height: 40vh;
+    /* border:  5px solid rgb(255, 255, 255); */
+    margin:  20% auto;
+   
+    position: relative;
+    left: 0%;
+    overflow: hidden;
+
+}
+
+
+
+.clide-single{
+    width: 10vw;
+    position: absolute;
+    transition: all ease 2.5s;
+    left: 0%;
+    top: 20%;
+      
+}
