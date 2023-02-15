@@ -8,10 +8,13 @@
 
 }
 
+
+
 .My-activity-block{
-       display: flex;
+        display: flex;
         justify-content: center;
         font-family: 'Roboto', sans-serif;
+        
 }
 
 .block-Act{
@@ -36,3 +39,22 @@
     font-size: 20px;
 
 }
+
+
+
+@media screen and (max-width: 800px) {
+    .My-activity-block{
+        display: inline-block;
+    }
+}
+     
+
+
+@media screen and (max-width: 800px) {
+    .My-activity-title{
+        font-size: 15px;
+    }
+}
+     
+
+

@@ -18,18 +18,10 @@ document.getElementById('IdLinkGithub').addEventListener('click', function LinkG
 
 
 
-
-
-
-
-let scrolled;
-let timer;
-
 document.getElementById('buttonNext').onclick = function(){
-    scrolled = window.pageYOffset;
-    window.scrollTo(0,820);
-    console.log(window.pageYOffset)
+ 
+
+window.scrollTo({top:950, left:0 , behavior: 'smooth'});
 
 
-    // scrollToTop();
 }

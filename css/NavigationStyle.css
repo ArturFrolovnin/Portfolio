@@ -1,12 +1,11 @@
 /* верхняя панель навигации  */
 .Class-Navigation{
     
-     /* position: -webkit-sticky; */
-    /* background:radial-gradient(#080b2c,#000000); */
+ 
     background-color: rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 22;
     padding: 0 15px;
     font-family: 'Roboto', sans-serif;
 
@@ -21,7 +20,6 @@
     margin: 0px auto;
     align-items: center;
     padding: 15px ;
-    /* размытие заднего  фона  */
     backdrop-filter: blur(17px);
     border-bottom:solid 0.5px rgba(255, 255, 255, 0.5); 
     
