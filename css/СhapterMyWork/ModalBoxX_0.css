@@ -91,3 +91,16 @@
         top: 12vh;
     }
 }
+
+
+@media screen and (max-width: 500px) {
+    .Modal-X_0.Open-X_0 .Modal-Box-X_0{
+        transform: scale(0.7);
+   }
+}
+
+@media screen and (max-width: 400px) {
+    .Modal-X_0.Open-X_0 .Modal-Box-X_0{
+        transform: scale(0.6);
+   }
+}
