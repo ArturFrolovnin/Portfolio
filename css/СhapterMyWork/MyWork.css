@@ -76,10 +76,21 @@
     .Text-in-iphone{
         font-size: 1.5em;
         top: 7vh;
+    
     }
 }
 
 
 
 
+@media screen and (max-width: 800px) {
+    .My-work{
+        min-height: 500px; 
+    }
+}
 
+@media screen and (max-width: 400px) {
+    .My-work{
+        min-height: 300px; 
+    }
+}
