@@ -15,3 +15,21 @@ document.getElementById('IdLinkTelegram').addEventListener('click', function Lin
 document.getElementById('IdLinkGithub').addEventListener('click', function LinkGithub() {
     window.location.href ='https://github.com/Artur78r';
 });
+
+
+
+
+
+
+
+let scrolled;
+let timer;
+
+document.getElementById('buttonNext').onclick = function(){
+    scrolled = window.pageYOffset;
+    window.scrollTo(0,820);
+    console.log(window.pageYOffset)
+
+
+    // scrollToTop();
+}
