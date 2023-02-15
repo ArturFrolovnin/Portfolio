@@ -33,3 +33,15 @@
 .icon-navigation:hover{
 scale: 1.6;
 }
+
+
+
+@media screen and (max-width: 700px) {
+    .section-contact{
+        width: 12%;
+    }
+}
+
+
+
+
