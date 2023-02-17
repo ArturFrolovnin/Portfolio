@@ -14,6 +14,15 @@ document.getElementById('IdLinkTelegram').addEventListener('click', function Lin
 
 document.getElementById('IdLinkGithub').addEventListener('click', function LinkGithub() {
     window.location.href ='https://github.com/Artur78r';
+
+});
+
+
+
+document.querySelector('.footer-button').addEventListener('click', function LinkTelegram() {
+
+    window.location.href ='https://t.me/faunra';
+    
 });
 
 
