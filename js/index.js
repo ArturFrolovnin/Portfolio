@@ -25,3 +25,25 @@ window.scrollTo({top:950, left:0 , behavior: 'smooth'});
 
 
 }
+
+
+
+
+
+
+
+
+
+
+    
+        
+      
+   
+    
+
+
+
+
+
+
+
