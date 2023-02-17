@@ -39,6 +39,18 @@
     
 }
 
+@media screen and (max-width:400px ){
+  .Text-in-page{
+
+    font-size: 9vw;
+
+  }
+}
+
+
+
+
+
 /* скорость воспроизведения текста  */
 #IdText1, #IdText2,#IdText3, #IdText4{
     opacity: 0;
@@ -139,6 +151,14 @@
     left: 0px;
     right: 0px;
     margin: auto;
+}
+
+
+@media screen and (max-width:400px) {
+  .Ray-light{
+    box-shadow: #e9f1f1 0px 0px 1.3vw 0.8px;
+  }
+  
 }
 
 .ray-1{
