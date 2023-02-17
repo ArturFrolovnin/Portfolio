@@ -1,8 +1,10 @@
 
 .im-person{
-  
-    height: 100%;
+      
     color: white;
+    height: 100%;
+    max-height: 1000px ;
+   
 }
 
 .Block-class-person{
@@ -13,19 +15,20 @@
 
 
 
-.backgraund-im-person{
+/* .backgraund-im-person{
 
     max-width: 2000px ;
     width: 70%;
+   
     
 
-}
+} */
     
   
 
 .img-person{
     max-width: 2000px ;
-    width: 55%;
+    width: 50%;
     border-radius: 100%;
    
     

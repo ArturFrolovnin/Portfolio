@@ -41,7 +41,7 @@ window.scrollTo({top:950, left:0 , behavior: 'smooth'});
 
 document.getElementById('button-portfolio').onclick = function(){
  
-    window.scrollTo({top:1950, left:0 , behavior: 'smooth'});
+    window.scrollTo({top:1850, left:0 , behavior: 'smooth'});
         
 }
     
@@ -49,13 +49,19 @@ document.getElementById('button-portfolio').onclick = function(){
 
 document.getElementById('button-technologies').onclick = function(){
  
-    window.scrollTo({top:3800, left:0 , behavior: 'smooth'});
+    const el = document.getElementById('Scroll-technologies');
+    el.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
+   
             
 }
 
+
+
+
+
 document.getElementById('button-about').onclick = function(){
  
-    window.scrollTo({top:4600, left:0 , behavior: 'smooth'});
+    window.scrollTo({ top:3600, left:0 , behavior: 'smooth'});
             
 }
 
