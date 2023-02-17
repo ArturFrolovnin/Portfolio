@@ -28,10 +28,7 @@
     width: 55%;
     border-radius: 100%;
    
-    transition: scale 1s;
-}
-.img-person:hover{
-    scale: 2;
+    
 }
 
 
