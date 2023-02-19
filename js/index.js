@@ -28,20 +28,27 @@ document.querySelector('.footer-button').addEventListener('click', function Link
 
 document.getElementById('buttonNext').onclick = function(){
  
-window.scrollTo({top:950, left:0 , behavior: 'smooth'});
+const el = document.getElementById('Id-My-activity-title');
+el.scrollIntoView({block: "start", inline: "center", behavior: "smooth"});
+
+
 }
+
+
 
 
 document.getElementById('button-target').onclick = function(){
  
-window.scrollTo({top:950, left:0 , behavior: 'smooth'});
+    const el = document.getElementById('Id-My-activity-title');
+    el.scrollIntoView({block: "start", inline: "center", behavior: "smooth"});
     
 }
 
 
 document.getElementById('button-portfolio').onclick = function(){
  
-    window.scrollTo({top:1850, left:0 , behavior: 'smooth'});
+    const el = document.getElementById('Id-My-work-scroll');
+    el.scrollIntoView({block: "start", inline: "center", behavior: "smooth"});
         
 }
     
@@ -58,10 +65,10 @@ document.getElementById('button-technologies').onclick = function(){
 
 
 
-
 document.getElementById('button-about').onclick = function(){
  
-    window.scrollTo({ top:3600, left:0 , behavior: 'smooth'});
+    const el = document.getElementById('Id-im-person-scroll');
+    el.scrollIntoView({block: "start", inline: "center", behavior: "smooth"});
             
 }
 

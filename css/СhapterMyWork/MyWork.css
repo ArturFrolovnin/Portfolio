@@ -1,17 +1,20 @@
-/* раздел показа работ */
 
 .My-work{
      
-    /* text-align: center; */
-    color:white;
-    /* height: 100%;
-    min-height: 100vh; */
    
-    
-    /* border: solid 2px rebeccapurple; */
-    
+    color:white;
+      
 
 }
+
+#Id-My-work-scroll{
+text-align: center;
+margin: 0px 0px 2% 0px ;
+overflow: hidden;
+opacity: 0;
+
+}
+
 
 
 .Class_Iphone {

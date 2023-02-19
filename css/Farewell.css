@@ -16,6 +16,7 @@
     text-align: center;
     color: white;
     font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
 
 
 }
@@ -26,6 +27,7 @@ margin-top: 2%;
 text-align: center;
 color: white;
 font-size: 2vw;
+font-family: 'Roboto', sans-serif;
 
 }
 
@@ -76,12 +78,12 @@ font-size: 2vw;
 
 @media screen and (max-width: 500px) {
     .footer-title{
-        font-size: 7vw;
+        font-size: 6vw;
     }
 }
 @media screen and (max-width: 500px) {
     .footer-text{
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin-top: 5%;
         
     }

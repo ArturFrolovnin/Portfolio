@@ -10,7 +10,7 @@
 
 .My-activity-title{
 
-    margin: 7% auto;
+    margin: 4% auto;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 
@@ -37,6 +37,12 @@
      /* border: solid 2px red; */
  
 }
+
+#Id-My-activity-title{
+    overflow: hidden;
+    opacity: 0;
+}
+
 
 
 
