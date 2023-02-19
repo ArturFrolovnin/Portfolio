@@ -17,8 +17,8 @@
 
 /* полоса прокрутки (скроллбар) */
 ::-webkit-scrollbar {
-    width: 15px; /* ширина для вертикального скролла */
-    height: 8px; /* высота для горизонтального скролла */
+    width: 15px; 
+    height: 8px; 
     background-color: #3a3a3a;
 }
 

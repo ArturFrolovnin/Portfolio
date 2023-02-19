@@ -53,8 +53,8 @@ opacity: 0;
     right: 0vw;
     top: 0vh;
     bottom: 0vh;
-    cursor: pointer;
-    opacity: 0;
+
+    opacity: 1;
     transition: opacity 1.5s;
 
   
