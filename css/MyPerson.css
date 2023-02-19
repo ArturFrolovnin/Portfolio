@@ -3,7 +3,7 @@
       
     color: white;
     height: 100%;
-    max-height: 1000px ;
+    border: solid red 2px;
    
 }
 
@@ -14,17 +14,6 @@
 }
 
 
-
-/* .backgraund-im-person{
-
-    max-width: 2000px ;
-    width: 70%;
-   
-    
-
-} */
-    
-  
 
 .img-person{
     max-width: 2000px ;
@@ -73,3 +62,34 @@
 
 }
 
+
+@media screen and (max-width: 500px) {
+    .img-person-position{
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img-person{
+        width: 45%;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Person-title{
+        font-size: 5vw;
+        margin-left: 34%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .person-text{
+        width: 80%;
+        margin-left: 11%;
+        margin-top: 55%;
+        font-size: 3.7vw;
+        text-align: center;
+    }
+}

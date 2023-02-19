@@ -4,8 +4,8 @@
      
     /* text-align: center; */
     color:white;
-    height: 100%;
-    min-height: 100vh;
+    /* height: 100%;
+    min-height: 100vh; */
    
     
     /* border: solid 2px rebeccapurple; */
@@ -91,28 +91,6 @@
        
     }
 }
-
-
-
-@media screen and (max-width: 500px) {
-    .My-work{
-       height: 110vh;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .My-work{
-       height: 90vh;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .My-work{
-       height: 65vh;
-    }
-}
-
-
 
 
 
