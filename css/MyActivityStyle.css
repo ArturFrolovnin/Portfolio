@@ -3,33 +3,9 @@
     color: white;
     height: 99.9%;
     width: 99.9%;
-    min-height: 400px;
+    /* min-height: 400px; */
     text-align: center;
 
-}
-
-
-
-.My-activity-block{
-        display: flex;
-        justify-content: center;
-        font-family: 'Roboto', sans-serif;
-        
-}
-
-.block-Act{
-         
-    margin: 3% auto;
-    min-width: 150px;
-    min-height: 150px;
-    width: 24%;
-    height: auto;
-    text-align: center;   
-    color: white;
-    margin-bottom: 20% ;
-   
-   
- 
 }
 
 .My-activity-title{
@@ -41,8 +17,110 @@
 }
 
 
+.My-activity-block{
+        display: flex;
+        justify-content: center;
+        font-family: 'Roboto';
+        
+}
 
-@media screen and (max-width: 800px) {
+.block-Act{
+         
+    margin: 3% auto;
+    min-width: 150px;
+    min-height: 150px;
+    width: 24%;
+    text-align: center;   
+    color: white;
+    margin-bottom: 20% ;
+   
+     /* border: solid 2px red; */
+ 
+}
+
+
+
+
+.h2-first-title{
+ font-size: 2vw;
+ margin-bottom: 2%;
+}
+
+@media screen and (max-width:700px) {
+    .h2-first-title {
+        font-size: 5vw;
+        margin-bottom: 2%;
+        
+    }
+    
+}
+
+
+.h2-second-title{
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width:700px) {
+    .h2-second-title{
+        font-size: 3vw;
+        
+    }
+    
+}
+
+
+.p-text-block{
+    font-size: 1.2vw;
+    margin-top: 2%;
+}
+
+@media screen and (max-width:700px) {
+    .p-text-block{
+        font-size: 3vw;
+        margin-top: 2%;
+        
+    }
+
+}
+
+
+
+.width-img-block-act{
+    max-width: 2000px;
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .width-img-block-act {
+        width: 55vw;
+        
+    }
+    
+}
+
+
+@media screen and (max-width:700px) {
+    .block-Act {
+        min-width: 150px;
+        min-height: 150px;
+        width: 75%;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
     .My-activity-block{
         display: inline-block;
     }
@@ -50,7 +128,7 @@
      
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     .My-activity-title{
         font-size: 15px;
     }

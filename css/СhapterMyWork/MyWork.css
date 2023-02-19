@@ -5,9 +5,10 @@
     /* text-align: center; */
     color:white;
     height: 100%;
-    min-height: 700px;
+    min-height: 100vh;
    
     
+    /* border: solid 2px rebeccapurple; */
     
 
 }
@@ -80,14 +81,49 @@
 
 
 
+@media screen and (max-width: 500px){
+
+    .img-scale-Iphone-off,.img-scale-Iphone-on{
+        max-width: 2000px;
+        width: 70%;
+        margin-top: 30%;
+        
+       
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .My-work{
+       height: 110vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .My-work{
+       height: 90vh;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .My-work{
+       height: 65vh;
+    }
+}
 
 
 
 
-@media screen and (max-width: 700px) {
+
+
+
+@media screen and (max-width: 500px) {
     .Text-in-iphone{
-        /* font-size: 1.5em;
-        top: 7vh; */
+        font-size: 8vw;
+        margin-top: 60%;
+        margin-left: 1%;
+    
     
     }
 }
@@ -95,14 +131,6 @@
 
 
 
-@media screen and (max-width: 800px) {
-    .My-work{
-        /* min-height: 600px;  */
-    }
-}
 
-@media screen and (max-width: 400px) {
-    .My-work{
-        /* min-height: 300px;  */
-    }
-}
+
+

@@ -98,9 +98,24 @@
 
 @media screen and (max-width: 700px) {
     .icon-modal-box-x-0{
-       
+        margin-top: 13%;
+        margin-left: -11%;
     }
 }
+@media screen and (max-width: 500px) {
+    .icon-modal-box-x-0{
+        margin-top: 75%;
+        margin-left: -41%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img-scale-icon-x-0{
+        width: 8%;
+    }
+}
+
+
 
 
 @media screen and (max-width: 500px) {
