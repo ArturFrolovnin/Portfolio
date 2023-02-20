@@ -19,6 +19,10 @@
 }
 
 
+
+
+
+
 .img-scale-icon-Witcher{
     max-width: 600px;
     width: 4.5%;
@@ -57,7 +61,8 @@
 
 
 .Modal-Witcher-Box{
-    max-width: 1000px;
+    border: 2px solid red;
+    max-width: 700px;
     width: 100%;
     padding: 5%;
     z-index: 1;
@@ -75,35 +80,66 @@
 
 
 
-
-
-
-
-
+.Gallery-Witcher{
+    box-sizing: border-box;
+    margin-left: 1.5%;
+}
 
 
 
 .button-naw-modal-box-Witcher{
     display: flex;
     list-style: none;
+    justify-content: center;
     
-}
-.blockButton-Geralt,.blockButton-Yennifer,.blockButton-Triss,
-.blockButton-Ciri,.blockButton-Lutik{
-    border: solid 2px red;
-    padding: 10px;
-    margin-left: 20px ;
 }
 
 
 .ImgWither{
-
-    border: solid 2px rebeccapurple;
+   
     float: left;
     margin: 2% 2% 2% 2%;
-    padding: 2% auto;
-
+   
 }
+
+.blockButton-Geralt,.blockButton-Yennifer,.blockButton-Triss,
+.blockButton-Ciri,.blockButton-Lutik,.blockButton-ALL{
+    
+    border: solid 2px red;
+    margin: 2% 2% 2% 2%;
+    cursor: pointer;
+}
+
+.blockButton-ALL{
+padding: 2% 4% 2% 4%;
+}
+
+.blockButton-Geralt{
+    padding: 2% 2% 2% 2%;
+}
+
+.blockButton-Yennifer{
+    padding: 2% 1% 2% 1%;
+}
+
+.blockButton-Triss{
+    padding: 2% 3% 2% 3%;
+}
+
+.blockButton-Ciri{
+    padding: 2% 4% 2% 4%;
+}
+
+.blockButton-Lutik{
+    padding: 2% 3% 2% 3%;
+}
+
+
+
+
+
+
+
 
 
 .Animation-class{
@@ -129,23 +165,44 @@
 
 
 .Geralt-img-scale{
-    max-width:150px ;
-    width: 100%;
+    max-width: 200px;
+    width: 100%;      
  
 }
 .Yennifer-img-scale{
-    max-width:150px ;
-    width: 100%;
+    max-width: 200px;
+    width: 100%;      
+ 
 }
 .Triss-img-scale{
-    max-width:150px ;
-    width: 100%;
+    max-width: 200px;
+    width: 100%;      
+ 
 }
 .Ciri-img-scale{
-    max-width:150px ;
-    width: 100%;
+    max-width: 200px;
+    width: 100%;      
+ 
 }
 .Lutik-img-scale{
-    max-width:150px ;
-    width: 100%;
+    max-width: 200px;
+    width: 100%;      
+ 
+
+
+
 }
+@media screen and (max-width: 500px) {
+    .icon-modal-box-position-Witcher{
+         margin-top: 75%;
+         margin-left: -4%;
+     }
+ }
+ 
+ @media screen and (max-width: 500px) {
+     .img-scale-icon-Witcher{
+         max-width: 600px;
+         width: 15%;     
+     }
+  }
+  
