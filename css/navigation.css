@@ -1,0 +1,95 @@
+.navigation {
+  position: sticky;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 22;
+  padding: 0 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navigation-container{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 75px;
+  backdrop-filter: blur(17px);
+  border-bottom: solid 0.5px rgba(255, 255, 255, 0.5);
+}
+
+.navigation-container__button-switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-switch__change-language{
+  max-width: 55px;
+  max-height: 40px;
+  height: 100%;
+  width: 100%;
+}
+
+input[id="change-language__checkbox"] {
+  position: relative;
+  width: 33px;
+  height: 18px;
+  appearance: none;
+  outline: none;
+  background: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: solid 1.5px white;
+  transition: .5s;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+input:checked[id="change-language__checkbox"] {
+  background: gray;
+}
+
+input[id="change-language__checkbox"]:before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background: rgb(255, 255, 255);
+  transition: .5s;
+  transform: scale(1.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input:checked[id="change-language__checkbox"]:before {
+  left: 15px;
+}
+
+.button__menu-navigation{
+  border: 2px solid white;
+  background: transparent;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  max-width: 250px;
+  max-height: 55px;
+  font-size: 25px;
+  border-radius: 5px;
+  opacity: .5;
+  transition: .3s;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.button__menu-navigation:hover {
+  border: 2px solid white;
+  background-color: rgba(365, 365, 365, 0.5);
+  cursor: pointer;
+  color: white;
+  opacity: 1;
+  transition: .3s;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.6), 0 -8px 16px 0 rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 950px) {
+  .navigation {
+    display: none;
+  }
+
+}

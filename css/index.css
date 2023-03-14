@@ -1,34 +1,29 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.main-content-site{
-    background-color: rgb(0, 0, 0);   
+.main-content-site {
+    background-color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
 }
 
-
-/* полоса прокрутки (скроллбар) */
 ::-webkit-scrollbar {
-    width: 15px; 
-    height: 8px; 
+    width: 15px;
+    height: 8px;
     background-color: #3a3a3a;
 }
 
-/* ползунок скроллбара */
 ::-webkit-scrollbar-thumb {
     background-color: #000000;
     border-radius: 9em;
-    box-shadow: inset 1px 1px 7px #f3faf7,inset -1px -1px 7px #f3faf7 ;
+    box-shadow: inset 1px 1px 7px #f3faf7, inset -1px -1px 7px #f3faf7;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #253861 ;
+    background-color: #253861;
 }
-
-/* Стрелки */
 
 ::-webkit-scrollbar-button:vertical:start:decrement {
     background: linear-gradient(120deg, #02141a 40%, rgba(0, 0, 0, 0) 41%),
@@ -60,10 +55,3 @@
         linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
     background-color: #f6f8f4;
 }
-
-
-
-
-
-
-
