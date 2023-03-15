@@ -1,5 +1,4 @@
-window.addEventListener('load', function ModalBox() {
-    // 1 модальное окно ................................
+export function ModalBox() {
 
     document.getElementById("Id-icon-modal-box-x-0").addEventListener("click", function () {
         document.getElementById("Id-Modal-X_0").classList.add("Open-X_0");
@@ -72,4 +71,4 @@ window.addEventListener('load', function ModalBox() {
 
         }
     }
-})
+}

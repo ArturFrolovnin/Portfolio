@@ -1,4 +1,4 @@
-window.addEventListener('load', function SectionSkills() {
+export function SectionSkills() {
 
     let slides = document.querySelectorAll(".clide-single");
     let slider = [];
@@ -27,10 +27,9 @@ window.addEventListener('load', function SectionSkills() {
         offset = 1;
 
     }
-    function left() {
+    function leftFun() {
 
-        timer = setTimeout(function () {
-
+       let timer = setTimeout(function () {
 
             let slides2 = document.querySelectorAll(".clide-single")
             let offset = 0;
@@ -43,7 +42,7 @@ window.addEventListener('load', function SectionSkills() {
                 slides2[0].remove();
 
                 draw();
-                left();
+                leftFun();
             }, 2000)
 
         }, 1000)
@@ -52,6 +51,5 @@ window.addEventListener('load', function SectionSkills() {
     }
 
     draw(); draw(); draw(); draw(); draw(); draw();
-
-    left();
-})
+    leftFun();
+}

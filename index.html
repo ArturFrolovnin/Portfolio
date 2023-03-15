@@ -9,26 +9,25 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/titlePageSite.css">
     <link rel="stylesheet" href="css/navigation.css">
-    <link rel="stylesheet" href="css/MyActivityStyle.css">
+    <link rel="stylesheet" href="css/myDevelopment.css">
     <link rel="stylesheet" href="css/СhapterMyWork/MyWork.css">
-    <link rel="stylesheet" href="css/SectionButtonNav.css">
+    <link rel="stylesheet" href="css/linkContact.css">
     <link rel="stylesheet" href="css/СhapterMyWork/TestModal-box.css">
     <link rel="stylesheet" href="css/СhapterMyWork/ModalBoxX_0.css">
     <link rel="stylesheet" href="css/MySkillsStyle.css">
     <link rel="stylesheet" href="css/MyPerson.css">
-    <link rel="stylesheet" href="css/Farewell.css"> 
+    <link rel="stylesheet" href="css/Farewell.css">
     <link rel="stylesheet" href="css/СhapterMyWork/ModalBoxWitcher.css">
-    
-    <script src="js/navigation.js"> </script>
-    <script src="js/ModalBox.js"></script>
-    <script src="js/SectionSkills.js"></script>
-    <script src="js/ModalWitcher.js"></script> 
-    <script  src="js/index.js"></script>
+
+     
+   
+    <!-- <script src="js/SectionSkills.js"></script> -->
+    <script type="module" src="js/index.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="main-content-site">
+    <div class="all-content-site-portfolio">
         <section class="title-page-site">
             <div class="title-page-site__title-text">
                 <div class="title-text__text text-animation-1">
@@ -81,116 +80,109 @@
                         <p style="color:white"> English</p>
                     </div>
                 </div> -->
-                <div class="navigation-container__button" >
+                <div class="navigation-container__button">
                     <button class="button__menu-navigation" id="button-target"> цели </button>
                     <button class="button__menu-navigation" id="button-portfolio"> портфолио</button>
-                    <button class="button__menu-navigation" id="button-technologies" > технологии </button>
-                    <button class="button__menu-navigation" id="button-about" > обо мне</button>
-                    <button class="button__menu-navigation" id="button-contacts" > контакты </button>
+                    <button class="button__menu-navigation" id="button-technologies"> технологии </button>
+                    <button class="button__menu-navigation" id="button-about"> обо мне</button>
+                    <button class="button__menu-navigation" id="button-contacts"> контакты </button>
                 </div>
             </div>
         </header>
         <section class="link-contact">
             <div class="link-contact__icon-navigation">
-                <div class="icon-navigation__icon" id="IdLinkVk"> 
-                    <img src="img/icon/vk-logo.png" 
-                    width="70%"> 
+                <div class="icon-navigation__icon" id="IdLinkVk">
+                    <img src="img/icon/vk-logo.png" width="70%">
                 </div>
-                <div class="icon-navigation__icon"> 
-                    <img src="img/icon/Tg-logo.png" id="IdLinkTelegram"
-                    width="70%">
+                <div class="icon-navigation__icon">
+                    <img src="img/icon/Tg-logo.png" id="IdLinkTelegram" width="70%">
                 </div>
-                <div class="icon-navigation__icon"> 
-                    <img src="img/icon/github-icons.png" id="IdLinkGithub"
-                    width="70%">
+                <div class="icon-navigation__icon">
+                    <img src="img/icon/github-icons.png" id="IdLinkGithub" width="60%">
                 </div>
             </div>
-        </section>  
-        <main class="">
-            <section class="My-activity">
-                <div id="Id-My-activity-title">
-                    <p> m</p>
-                </div>
-                <div class="My-activity-title" >
+        </section>
+        <main class="main-content-site">
+            <section class="my-development">
+                <div class="my-development__title"  id="Id-My-activity-title"> 
                     <h1> В каких направлениях я развиваюсь </h1>
                 </div>
-                <div class="My-activity-block">
-                    <div class="block-Act"> 
-                        <h2 class="h2-first-title" >Frontend</h2>
-                        <h2 class="h2-second-title" >Основное направление </h2>
-                        <img src="img/Frontend.png" 
-                        class="width-img-block-act">
-                        <p class="p-text-block" > Совершенствуюсь в вёрстке красивых и современных веб-страниц с полной адаптивностью под любые устройства </p>
+                <div class="my-development__target">
+                    <div class="target__container">
+                        <div class="container__title-frontend">
+                            <h2>Frontend</h2>
+                            <p>Основное направление</p>
+                        </div>
+                        <div class="container__img-frontend">
+                            <img class="img-frontend__img" src="img/Frontend.png">
+                        </div>
+                        <div class="container__text-frontend">
+                            <p> Совершенствуюсь в вёрстке красивых и современных веб-страниц с полной адаптивностью под любые устройства </p>
+                        </div>
                     </div>
-                    <div class="block-Act"> 
-                        <h2 class="h2-first-title" > Backend </h2>   
-                        <h2 class="h2-second-title" > План на развите в будующем </h2>  
-                        <img src="img/backend.png" 
-                        class="width-img-block-act"
-                        alt="">
-                        <p class="p-text-block" >Планирую освоить разработку  backend логики для  frontend'а.</p>
+                    <div class="target__container">
+                        <div class="container__title-backend">
+                            <h2>Backend</h2>
+                            <p>План на развите в будующем</p>
+                        </div>
+                        <div class="container__img-backend">
+                            <img class="img-backend__img" src="img/backend.png">
+                        </div>
+                        <div class="container__text-backend">
+                            <p> Планирую освоить разработку backend логики для frontend'а. </p>
+                        </div>
                     </div>
-                    <div class="block-Act">
-                        <h2 class="h2-first-title" >Unity</h2>
-                        <h2 class="h2-second-title" > Хобби 2D игры  </h2>
-                        <img src="img/unity.png" 
-                        class="width-img-block-act"
-                        alt="">
-                        <p class="p-text-block" > Разрабатываю игры 2D на мобильные утройства. </p>
+                    <div class="target__container">
+                        <div class="container__title-unity">
+                            <h2>Unity</h2>
+                            <p>Хобби 2D игры </p>
+                        </div>
+                        <div class="container__img-unity">
+                            <img class="img-unity__img" src="img/unity.png">
+                        </div>
+                        <div class="container__text-unity">
+                            <p> Разрабатываю игры 2D на мобильные утройства. </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            
-
-
-
-            <!-- раздел моих работ  -->
             <section class="My-work">
-
-                <div id="Id-My-work-scroll" >
+                <div id="Id-My-work-scroll">
                     <p>map</p>
                 </div>
                 <div class="Class_Iphone">
 
-                        <!-- фон для черного экрана  -->
+                    <!-- фон для черного экрана  -->
                     <div id="Id-Iphone-1" class="frame-Iphone">
 
-                        <img src="img/iphoneOff2.png"
-                        class="img-scale-Iphone-off"
-                        
-                        alt="">
+                        <img src="img/iphoneOff2.png" class="img-scale-Iphone-off" alt="">
                     </div>
 
 
-                     <!-- фон для активного экрана  -->
-                    <div id="Id-Iphone-2" >
-                        <div  class="Iphone-backgraund">
+                    <!-- фон для активного экрана  -->
+                    <div id="Id-Iphone-2">
+                        <div class="Iphone-backgraund">
 
-                            <img  src="img/iphone_x.png"
-                            class="img-scale-Iphone-on"
-                            
-                            alt="">
-                            
+                            <img src="img/iphone_x.png" class="img-scale-Iphone-on" alt="">
 
-                            <div class="Text-in-iphone" >
-                                Библиотека 
+
+                            <div class="Text-in-iphone">
+                                Библиотека
                             </div>
-    
-                                    <!-- модальные окна              -->
-                                    <!-- крестики нолики -->
-                                                        
-                            <div class="icon-modal-box-x-0"  id="Id-icon-modal-box-x-0">
 
-                                <img src="img/wokr/X0.png"
-                                    class="img-scale-icon-x-0"
-                                    alt="">
-    
+                            <!-- модальные окна              -->
+                            <!-- крестики нолики -->
+
+                            <div class="icon-modal-box-x-0" id="Id-icon-modal-box-x-0">
+
+                                <img src="img/wokr/X0.png" class="img-scale-icon-x-0" alt="">
+
                             </div>
-                              
+
                             <div class="Modal-X_0" id="Id-Modal-X_0" data-modal="0">
                                 <div class="Modal-Box-X_0">
-                                   
+
                                     <div id="game"> </div>
 
                                 </div>
@@ -199,208 +191,205 @@
 
                             <div class="icon-modal-box-position-Witcher" id="ID-icon-modal-box-position-Witcher">
 
-                                <img src="img/wokr/Witcher/iconMedallion.png"
-                                class="img-scale-icon-Witcher" 
-                                alt="">
-                                
+                                <img src="img/wokr/Witcher/iconMedallion.png" class="img-scale-icon-Witcher" alt="">
+
                             </div>
 
                             <div class="Modal-Witcher" id="ID-modal-witcher" data-modal="0">
                                 <div class="Modal-Witcher-Box">
 
                                     <h1>
-                                        <img src="https://i.pinimg.com/originals/6d/b4/85/6db48503abb29129a46ff78cfa354925.png" 
-                                        alt=""
-                                        height="100">
+                                        <img src="https://i.pinimg.com/originals/6d/b4/85/6db48503abb29129a46ff78cfa354925.png"
+                                            alt="" height="100">
                                     </h1>
 
                                     <div>
-                                        <nav class="button-naw-modal-box-Witcher" >
-                                            
-                                            <li data-btn="all"      class="blockButton-ALL" >ALL</li>
-                                            <li data-btn="Geralt"   class="blockButton-Geralt">GERALT </li>
+                                        <nav class="button-naw-modal-box-Witcher">
+
+                                            <li data-btn="all" class="blockButton-ALL">ALL</li>
+                                            <li data-btn="Geralt" class="blockButton-Geralt">GERALT </li>
                                             <li data-btn="Yennifer" class="blockButton-Yennifer">YENNIFER</li>
-                                            <li data-btn="Triss"    class="blockButton-Triss">TRISS</li>
-                                            <li data-btn="Ciri"     class="blockButton-Ciri">CIRI</li>
-                                            <li data-btn="Lutik"    class="blockButton-Lutik">LUTIK</li>
-                                            
+                                            <li data-btn="Triss" class="blockButton-Triss">TRISS</li>
+                                            <li data-btn="Ciri" class="blockButton-Ciri">CIRI</li>
+                                            <li data-btn="Lutik" class="blockButton-Lutik">LUTIK</li>
+
                                         </nav>
 
                                         <div class="Gallery-Witcher">
 
 
-                                            <div class="Collection ImgWither Geralt "> 
+                                            <div class="Collection ImgWither Geralt ">
                                                 <img src="img/wokr/Witcher/Gallery/Geralt/Geralt1.jpg"
-                                                class="Geralt-img-scale"> 
+                                                    class="Geralt-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Yennifer "> 
+                                            <div class="Collection ImgWither Yennifer ">
                                                 <img src="img/wokr/Witcher/Gallery/Yennifer/Yennifer1.jpg"
-                                                class="Yennifer-img-scale">
+                                                    class="Yennifer-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Triss ">    
-                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss1.jpg" 
-                                                    class="Triss-img-scale">     
+                                            <div class="Collection ImgWither Triss ">
+                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss1.jpg"
+                                                    class="Triss-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Ciri ">   
-                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri1.jpg" 
-                                                    class="Ciri-img-scale">     
+                                            <div class="Collection ImgWither Ciri ">
+                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri1.jpg"
+                                                    class="Ciri-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Lutik "> 
-                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik1.jpg" 
-                                                    class="Lutik-img-scale"> 
+                                            <div class="Collection ImgWither Lutik ">
+                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik1.jpg"
+                                                    class="Lutik-img-scale">
                                             </div>
 
-                                            <div class="Collection ImgWither Geralt "> 
+                                            <div class="Collection ImgWither Geralt ">
                                                 <img src="img/wokr/Witcher/Gallery/Geralt/Geralt2.jpg"
-                                                class="Geralt-img-scale"> 
+                                                    class="Geralt-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Yennifer "> 
+                                            <div class="Collection ImgWither Yennifer ">
                                                 <img src="img/wokr/Witcher/Gallery/Yennifer/Yennifer2.jpg"
-                                                class="Yennifer-img-scale">
+                                                    class="Yennifer-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Triss ">    
-                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss2.jpg" 
-                                                    class="Triss-img-scale">     
+                                            <div class="Collection ImgWither Triss ">
+                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss2.jpg"
+                                                    class="Triss-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Ciri ">   
-                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri2.png" 
-                                                    class="Ciri-img-scale">     
+                                            <div class="Collection ImgWither Ciri ">
+                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri2.png"
+                                                    class="Ciri-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Lutik "> 
-                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik2.jpg" 
-                                                    class="Lutik-img-scale"> 
+                                            <div class="Collection ImgWither Lutik ">
+                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik2.jpg"
+                                                    class="Lutik-img-scale">
                                             </div>
 
-                                            <div class="Collection ImgWither Geralt "> 
+                                            <div class="Collection ImgWither Geralt ">
                                                 <img src="img/wokr/Witcher/Gallery/Geralt/Geralt3.jpg"
-                                                class="Geralt-img-scale"> 
+                                                    class="Geralt-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Yennifer "> 
+                                            <div class="Collection ImgWither Yennifer ">
                                                 <img src="img/wokr/Witcher/Gallery/Yennifer/Yennifer3.jpg"
-                                                class="Yennifer-img-scale">
+                                                    class="Yennifer-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Triss ">    
-                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss3.jpg" 
-                                                    class="Triss-img-scale">     
+                                            <div class="Collection ImgWither Triss ">
+                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss3.jpg"
+                                                    class="Triss-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Ciri ">   
-                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri3.jpg" 
-                                                    class="Ciri-img-scale">     
+                                            <div class="Collection ImgWither Ciri ">
+                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri3.jpg"
+                                                    class="Ciri-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Lutik "> 
-                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik3.jpg" 
-                                                    class="Lutik-img-scale"> 
+                                            <div class="Collection ImgWither Lutik ">
+                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik3.jpg"
+                                                    class="Lutik-img-scale">
                                             </div>
 
-                                            <div class="Collection ImgWither Geralt "> 
+                                            <div class="Collection ImgWither Geralt ">
                                                 <img src="img/wokr/Witcher/Gallery/Geralt/Geralt4.jpg"
-                                                class="Geralt-img-scale"> 
+                                                    class="Geralt-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Yennifer "> 
+                                            <div class="Collection ImgWither Yennifer ">
                                                 <img src="img/wokr/Witcher/Gallery/Yennifer/Yennifer4.jpg"
-                                                class="Yennifer-img-scale">
+                                                    class="Yennifer-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Triss ">    
-                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss4.jpg" 
-                                                    class="Triss-img-scale">     
+                                            <div class="Collection ImgWither Triss ">
+                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss4.jpg"
+                                                    class="Triss-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Ciri ">   
-                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri4.jpg" 
-                                                    class="Ciri-img-scale">     
+                                            <div class="Collection ImgWither Ciri ">
+                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri4.jpg"
+                                                    class="Ciri-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Lutik "> 
-                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik4.jpg" 
-                                                    class="Lutik-img-scale"> 
+                                            <div class="Collection ImgWither Lutik ">
+                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik4.jpg"
+                                                    class="Lutik-img-scale">
                                             </div>
 
-                                            <div class="Collection ImgWither Geralt "> 
+                                            <div class="Collection ImgWither Geralt ">
                                                 <img src="img/wokr/Witcher/Gallery/Geralt/Geralt5.jpg"
-                                                class="Geralt-img-scale"> 
+                                                    class="Geralt-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Yennifer "> 
+                                            <div class="Collection ImgWither Yennifer ">
                                                 <img src="img/wokr/Witcher/Gallery/Yennifer/Yennifer5.jpg"
-                                                class="Yennifer-img-scale">
+                                                    class="Yennifer-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Triss ">    
-                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss5.jpg" 
-                                                    class="Triss-img-scale">     
+                                            <div class="Collection ImgWither Triss ">
+                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss5.jpg"
+                                                    class="Triss-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Ciri ">   
-                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri5.jpg" 
-                                                    class="Ciri-img-scale">     
+                                            <div class="Collection ImgWither Ciri ">
+                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri5.jpg"
+                                                    class="Ciri-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Lutik "> 
-                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik5.jpg" 
-                                                    class="Lutik-img-scale"> 
+                                            <div class="Collection ImgWither Lutik ">
+                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik5.jpg"
+                                                    class="Lutik-img-scale">
                                             </div>
 
-                                            <div class="Collection ImgWither Geralt "> 
+                                            <div class="Collection ImgWither Geralt ">
                                                 <img src="img/wokr/Witcher/Gallery/Geralt/Geralt6.jpg"
-                                                class="Geralt-img-scale"> 
+                                                    class="Geralt-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Yennifer "> 
+                                            <div class="Collection ImgWither Yennifer ">
                                                 <img src="img/wokr/Witcher/Gallery/Yennifer/Yennifer6.jpg"
-                                                class="Yennifer-img-scale">
+                                                    class="Yennifer-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Triss ">    
-                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss6.jpg" 
-                                                    class="Triss-img-scale">     
+                                            <div class="Collection ImgWither Triss ">
+                                                <img src="img/wokr/Witcher/Gallery/Triss/Triss6.jpg"
+                                                    class="Triss-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Ciri ">   
-                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri6.jpg" 
-                                                    class="Ciri-img-scale">     
+                                            <div class="Collection ImgWither Ciri ">
+                                                <img src="img/wokr/Witcher/Gallery/Ciri/Ciri6.jpg"
+                                                    class="Ciri-img-scale">
                                             </div>
 
 
-                                            <div class="Collection ImgWither Lutik "> 
-                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik6.jpg" 
-                                                    class="Lutik-img-scale"> 
+                                            <div class="Collection ImgWither Lutik ">
+                                                <img src="img/wokr/Witcher/Gallery/Lutik/Lutik6.jpg"
+                                                    class="Lutik-img-scale">
                                             </div>
 
 
@@ -418,7 +407,7 @@
                                     </div>
 
 
-                                    
+
 
 
 
@@ -434,13 +423,13 @@
 
 
 
-                            
-                          
+
+
                         </div>
                     </div>
-    
 
-                
+
+
                 </div>
             </section>
 
@@ -451,122 +440,102 @@
             <section class="My-Skills">
                 <!-- <h1> используемые технологии </h1> -->
 
-                        <div class="slide">
+                <div class="slide">
 
-                            <div class="Title-MySkills" id="el" >
-                                <h1> Используемые технологии </h1>
-                            </div>
+                    <div class="Title-MySkills" id="el">
+                        <h1> Используемые технологии </h1>
+                    </div>
 
-                            <!-- <img src="img/TV3 .png" 
+                    <!-- <img src="img/TV3 .png" 
                             height=""
                             alt="">  -->
 
-                        
-                            <img src="img/icon/iconTV/HTML.png" 
-                            height="1vh"
-                            class="clide-single"
-                            alt="HTML">
 
-                            <img src="img/icon/iconTV/CSS.png" 
-                            
-                            class="clide-single"
-                            alt="CSS">
+                    <img src="img/icon/iconTV/HTML.png" height="1vh" class="clide-single" alt="HTML">
 
-                            <img src="img/icon/iconTV/JS.png" 
-                            
-                            class="clide-single" 
-                            alt="JS">
+                    <img src="img/icon/iconTV/CSS.png" class="clide-single" alt="CSS">
 
-                            <img src="img/icon/iconTV/React.png" 
-                        
-                            class="clide-single"
-                            alt="React">
+                    <img src="img/icon/iconTV/JS.png" class="clide-single" alt="JS">
 
-                            <img src="img/icon/iconTV/C-Sharp.png" 
-                        
-                            class="clide-single"
-                            alt="C#">
+                    <img src="img/icon/iconTV/React.png" class="clide-single" alt="React">
 
-                            <img src="img/icon/iconTV/Unity.png" 
-                            
-                            class="clide-single"
-                            alt="Unity">
-                            
-                            <div id="Scroll-technologies">
-                                <p>Scroll</p>
-                            </div>
+                    <img src="img/icon/iconTV/C-Sharp.png" class="clide-single" alt="C#">
 
-                    
+                    <img src="img/icon/iconTV/Unity.png" class="clide-single" alt="Unity">
 
-                       
-                  
+                    <div id="Scroll-technologies">
+                        <p>Scroll</p>
+                    </div>
+
+
+
+
+
 
                 </div>
-           
-                
+
+
             </section>
 
 
 
 
 
-      <section class="im-person">
-                    <div id="Id-im-person-scroll">
-                        <p>
-                            map
-                        </p>
-                    </div>
+            <section class="im-person">
+                <div id="Id-im-person-scroll">
+                    <p>
+                        map
+                    </p>
+                </div>
 
                 <div class="Block-class-person">
-                   
+
                     <!-- <img src="img/ipad-png-6.png" 
                     class="backgraund-im-person"                                
                     alt="">
                          -->
 
                     <div class="img-person-position">
-                        <img src="img/Frolovnin Artur.png"
-                        class="img-person"
-                        alt="">
+                        <img src="img/Frolovnin Artur.png" class="img-person" alt="">
                     </div>
 
 
-                    <div class="Person-title" >
-                           <h2> Обо мне  </h2>
+                    <div class="Person-title">
+                        <h2> Обо мне </h2>
                     </div>
 
 
-                    <div class="person-text">          
-                       
-                        <p>   Я рад, что вы добрались до этого момента, поэтому расскажу немного о себе. </p>
-                        <p> Меня зовут Артур и мне нравится заниматься программированием и развиваться в сфере It.  </p>
-                        <p> На данный момент я развиваюсь в Frontend разработке. Этот сайт я сделал с целью  </p>
-                        <p> обучения и демонстрации моих навыков. Свои крупные проекты я буду размещать  </p>
-                        <p> на github, а небольшие  оставлю в своей  библиотеке на этом сайте  </p>
+                    <div class="person-text">
+
+                        <p> Я рад, что вы добрались до этого момента, поэтому расскажу немного о себе. </p>
+                        <p> Меня зовут Артур и мне нравится заниматься программированием и развиваться в сфере It. </p>
+                        <p> На данный момент я развиваюсь в Frontend разработке. Этот сайт я сделал с целью </p>
+                        <p> обучения и демонстрации моих навыков. Свои крупные проекты я буду размещать </p>
+                        <p> на github, а небольшие оставлю в своей библиотеке на этом сайте </p>
                         <p> в разделе портфолио, когда доделаю их на JS. </p>
 
                     </div>
-                    
+
                 </div>
-               
-                
-            </section> 
+
+
+            </section>
 
             <footer class="footer-block">
-                <div class="footer-title" >
-                    <h2>  Контакты   </h2>
+                <div class="footer-title">
+                    <h2> Контакты </h2>
                 </div>
 
-                <div class="footer-text" >
-                    
-                        <p> Если вам понравился мой сайт или есть желание  </p>  
-                        <p>  поработать со мной над интересным проектом, </p>
-                        <p>  то я с радостью отвечу на все ваши сообщения!  </p>
-                                                             
+                <div class="footer-text">
+
+                    <p> Если вам понравился мой сайт или есть желание </p>
+                    <p> поработать со мной над интересным проектом, </p>
+                    <p> то я с радостью отвечу на все ваши сообщения! </p>
+
                 </div>
 
                 <div class="footer-button-position">
-                    <button class="footer-button" > Привет  </button>
+                    <button class="footer-button"> Привет </button>
                 </div>
 
             </footer>
@@ -576,4 +545,5 @@
         </main>
     </div>
 </body>
+
 </html>

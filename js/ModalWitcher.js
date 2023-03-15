@@ -1,4 +1,4 @@
-window.addEventListener('load', function ModalWitcher() {
+export function ModalWitcher() {
 
     document.getElementById("ID-icon-modal-box-position-Witcher").addEventListener("click", function () {
         document.getElementById("ID-modal-witcher").classList.add("Open-Witcher");
@@ -28,4 +28,4 @@ window.addEventListener('load', function ModalWitcher() {
         });
 
     });
-})
+}

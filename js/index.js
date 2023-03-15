@@ -1,19 +1,11 @@
-window.addEventListener('load', function index() {
-    
-    document.getElementById('IdLinkVk').onclick = function () {
-        window.location.href = 'https://vk.com/arturvladimirovichh';
-    }
+import {navigation} from '/js/navigation.js';
+import {ModalBox} from '/js/ModalBox.js';
+import {ModalWitcher} from '/js/ModalWitcher.js';
+import {SectionSkills} from '/js/SectionSkills.js';
 
-    document.getElementById('IdLinkTelegram').onclick = function () {
-        window.location.href = 'https://t.me/faunra';
-    }
-
-    document.getElementById('IdLinkGithub').onclick = function () {
-        window.location.href = 'https://github.com/Artur78r';
-    }
-
-    document.querySelector('.footer-button').onclick = function () {
-        window.location.href = 'https://t.me/faunra';
-    }
- 
-})
+window.onload = function(){
+    navigation();
+    ModalBox();
+    ModalWitcher();
+    SectionSkills();
+}

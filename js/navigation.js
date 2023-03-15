@@ -1,4 +1,4 @@
-window.addEventListener('load', function navigation() {
+export function navigation() {
 
     const buttonTarget = document.getElementById("button-target");
     const buttonPortfolio = document.getElementById("button-portfolio");
@@ -7,7 +7,7 @@ window.addEventListener('load', function navigation() {
     const buttonContacts = document.getElementById("button-contacts");
 
     const objectClass = {
-        ACTIV : "menu-navigation__activity"
+        ACTIV: "menu-navigation__activity"
     }
 
     function addingOrRemovingClassWhenScrolling() {
@@ -45,9 +45,10 @@ window.addEventListener('load', function navigation() {
             buttonPortfolio.classList.remove(objectClass.ACTIV);
             buttonTechnologies.classList.remove(objectClass.ACTIV);
             buttonAbout.classList.remove(objectClass.ACTIV);
+
         }
     }
-    
+
     document.getElementById('button-title__button-next').onclick = function () {
         const element = document.getElementById('Id-My-activity-title');
         element.scrollIntoView({ block: "start", inline: "center", behavior: "smooth" });
@@ -81,5 +82,19 @@ window.addEventListener('load', function navigation() {
         addingOrRemovingClassWhenScrolling()
     }
 
-});
+    document.getElementById('IdLinkVk').onclick = function () {
+        window.location.href = 'https://vk.com/arturvladimirovichh';
+    }
 
+    document.getElementById('IdLinkTelegram').onclick = function () {
+        window.location.href = 'https://t.me/faunra';
+    }
+
+    document.getElementById('IdLinkGithub').onclick = function () {
+        window.location.href = 'https://github.com/Artur78r';
+    }
+
+    document.querySelector('.footer-button').onclick = function () {
+        window.location.href = 'https://t.me/faunra';
+    }
+}
