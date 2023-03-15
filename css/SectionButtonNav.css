@@ -1,47 +1,43 @@
-
-/* боковая панель вкладок */
-
-.section-contact{
-  
+.link-contact{
     position: sticky;
-    top: 75%;
-    width: 4%;
-    padding: 0 10px;
-    color: white;
+    top: 70%;
     z-index: 8999;
-       
-}
-
-.section-button-nav{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    list-style: none; 
- 
+    align-items: start;
 }
-.icon-navigation{
-   
-    margin-top: 25% ;
-    margin-left: 35%;
-    scale: 1;
+
+.link-contact__icon-navigation{
+    height: 150px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-navigation__icon{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
     cursor: pointer;
     transition: scale 1s;
-
 }
 
-.icon-navigation:hover{
-scale: 1.6;
+.icon-navigation__icon:hover{
+    scale: 1.5;
 }
 
-
-
-@media screen and (max-width: 700px) {
-    .section-contact{
-        width: 12%;
+@media screen and (max-width: 1400px) {
+    .icon-navigation__icon{
+        height: 30px;
+        width: 30px;
     }
 }
-
-
-
-
+@media screen and (max-width: 1100px) {
+    .link-contact{
+        display: none;
+    }
+}

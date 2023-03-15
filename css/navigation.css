@@ -21,6 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+/* 
 .button-switch__change-language{
   max-width: 55px;
   max-height: 40px;
@@ -60,7 +62,7 @@ input[id="change-language__checkbox"]:before {
 
 input:checked[id="change-language__checkbox"]:before {
   left: 15px;
-}
+} */
 
 .button__menu-navigation{
   border: 2px solid white;
@@ -92,4 +94,8 @@ input:checked[id="change-language__checkbox"]:before {
     display: none;
   }
 
+}
+
+.menu-navigation__activity{
+  opacity: 1;
 }
