@@ -22,48 +22,6 @@
   justify-content: center;
 }
 
-/* 
-.button-switch__change-language{
-  max-width: 55px;
-  max-height: 40px;
-  height: 100%;
-  width: 100%;
-}
-
-input[id="change-language__checkbox"] {
-  position: relative;
-  width: 33px;
-  height: 18px;
-  appearance: none;
-  outline: none;
-  background: rgb(0, 0, 0);
-  border-radius: 20px;
-  border: solid 1.5px white;
-  transition: .5s;
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-input:checked[id="change-language__checkbox"] {
-  background: gray;
-}
-
-input[id="change-language__checkbox"]:before {
-  content: '';
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border-radius: 15px;
-  background: rgb(255, 255, 255);
-  transition: .5s;
-  transform: scale(1.1);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-input:checked[id="change-language__checkbox"]:before {
-  left: 15px;
-} */
-
 .button__menu-navigation{
   border: 2px solid white;
   background: transparent;
@@ -89,11 +47,20 @@ input:checked[id="change-language__checkbox"]:before {
   box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.6), 0 -8px 16px 0 rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 950px) {
-  .navigation {
-    display: none;
+@media screen and (max-width: 700px) {
+  .button__menu-navigation{
+    font-size: 3.0vw;
   }
+}
 
+@media screen and (max-width: 450px) {
+  .button__menu-navigation{
+    font-size: 2.5vw;
+    margin-left: 5px;
+  }
+  .navigation-container{
+    height: 40px;
+  }
 }
 
 .menu-navigation__activity{
