@@ -2,12 +2,12 @@ export function SectionSkills() {
 
     let slides = document.querySelectorAll(".clide-single");
     let slider = [];
+    let timer;
 
     for (let i = 0; i < slides.length; i++) {
         slider[i] = slides[i].src;
         slides[i].remove();
     }
-
 
     let step = 0;
     let offset = 0;
@@ -27,9 +27,10 @@ export function SectionSkills() {
         offset = 1;
 
     }
+    
     function leftFun() {
 
-       let timer = setTimeout(function () {
+       timer = setTimeout(function () {
 
             let slides2 = document.querySelectorAll(".clide-single")
             let offset = 0;
@@ -53,3 +54,4 @@ export function SectionSkills() {
     draw(); draw(); draw(); draw(); draw(); draw();
     leftFun();
 }
+

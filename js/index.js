@@ -1,7 +1,7 @@
-import {navigation} from '/js/navigation.js';
-import {ModalBox} from '/js/ModalBox.js';
-import {ModalWitcher} from '/js/ModalWitcher.js';
-import {SectionSkills} from '/js/SectionSkills.js';
+import {navigation} from './navigation.js';
+import {ModalBox} from './ModalBox.js';
+import {ModalWitcher} from './ModalWitcher.js';
+import {SectionSkills} from './SectionSkills.js';
 
 window.onload = function(){
     navigation();
