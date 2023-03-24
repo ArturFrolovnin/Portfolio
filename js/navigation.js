@@ -12,34 +12,34 @@ export function navigation() {
 
     function addingOrRemovingClassWhenScrolling() {
         let windowwScroll = window.pageYOffset;
-        if (windowwScroll >= 850 && windowwScroll < 1500) {
+        if (windowwScroll >= 670 && windowwScroll < 900) {
             buttonTarget.classList.add(objectClass.ACTIV);
             buttonPortfolio.classList.remove(objectClass.ACTIV);
             buttonTechnologies.classList.remove(objectClass.ACTIV);
             buttonAbout.classList.remove(objectClass.ACTIV);
             buttonContacts.classList.remove(objectClass.ACTIV);
         }
-        else if (windowwScroll >= 1500 && windowwScroll <= 2500) {
+        else if (windowwScroll >= 1000 && windowwScroll <= 1300) {
             buttonPortfolio.classList.add(objectClass.ACTIV);
             buttonTarget.classList.remove(objectClass.ACTIV);
             buttonTechnologies.classList.remove(objectClass.ACTIV);
             buttonAbout.classList.remove(objectClass.ACTIV);
             buttonContacts.classList.remove(objectClass.ACTIV);
         }
-        else if (windowwScroll >= 2500 && windowwScroll <= 3200) {
+        else if (windowwScroll >= 1400 && windowwScroll <= 1700) {
             buttonTechnologies.classList.add(objectClass.ACTIV);
             buttonPortfolio.classList.remove(objectClass.ACTIV);
             buttonAbout.classList.remove(objectClass.ACTIV);
             buttonContacts.classList.remove(objectClass.ACTIV);
         }
-        else if (windowwScroll >= 3300 && windowwScroll <= 4100) {
+        else if (windowwScroll >= 1750 && windowwScroll <= 2100) {
             buttonAbout.classList.add(objectClass.ACTIV);
             buttonTarget.classList.remove(objectClass.ACTIV);
             buttonPortfolio.classList.remove(objectClass.ACTIV);
             buttonContacts.classList.remove(objectClass.ACTIV);
             buttonTechnologies.classList.remove(objectClass.ACTIV);
         }
-        else if (windowwScroll >= 4200) {
+        else if (windowwScroll >= 2100) {
             buttonContacts.classList.add(objectClass.ACTIV);
             buttonTarget.classList.remove(objectClass.ACTIV);
             buttonPortfolio.classList.remove(objectClass.ACTIV);

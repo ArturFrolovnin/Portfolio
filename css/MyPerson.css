@@ -1,51 +1,33 @@
-
-.im-person{
-      
+.im-person{  
     color: white;
     height: 100%;
-    
-   
 }
 
 #Id-im-person-scroll{
     text-align: center;
     overflow: hidden;
     opacity: 0;
-
 }
-
-
 
 .Block-class-person{
     text-align: center;
-    position: relative;
-  
+    position: relative;  
 }
-
-
 
 .img-person{
     max-width: 2000px ;
     width: 50%;
-    border-radius: 100%;
-   
-    
+    border-radius: 100%;   
 }
-
 
 .img-person-position{
     position: absolute;
     display: flex;
-
     top: 0vh; 
     left: 0vw;
-
     margin-left: 55%;
     margin-top: 18%;
-   
 }
-
-
 
 .Person-title{
     position: absolute;
@@ -61,39 +43,26 @@
     top: 0vh; 
     left: 0vw;
     margin-left: 22%;
-    
     margin-top: 13%;
     font-size: 1.7vw;
     text-align: left;
-   
     max-width: 800px;
     width: 32%;
-
 }
-
 
 @media screen and (max-width: 500px) {
     .img-person-position{
         margin-left: 34%;
     }
-}
-
-@media screen and (max-width: 500px) {
     .img-person{
         width: 45%;
 
     }
-}
-
-@media screen and (max-width: 500px) {
     .Person-title{
         font-size: 6vw;
         margin-left: 31%;
         margin-top: 5%;
     }
-}
-
-@media screen and (max-width: 500px) {
     .person-text{
         width: 80%;
         margin-left: 11%;
@@ -102,3 +71,4 @@
         text-align: center;
     }
 }
+
